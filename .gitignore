@@ -1,3 +1,5 @@
+# stuff
+distilbert*/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -7,6 +9,8 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.venv*/
+generative_env/
 .Python
 build/
 develop-eggs/
