@@ -1,0 +1,12 @@
+1) Install miniconda
+
+2) Crear los packages del env actual
+pip freeze > requirements.txt
+
+3) Crear un nuevo environmnet y activarlo
+
+python -m venv .venv
+source .venv/bin/activate 
+
+4) Instalar los requerimientos
+pip install -r requirements.txt
